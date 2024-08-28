@@ -190,7 +190,7 @@ header nav ul li a:hover{
 .banner{
     min-height: 100vh;
     width: 100%;
-    background-image: url("photos/mt-0822-home-slide1.jpg");
+    background-image: url("home.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
