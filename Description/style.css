@@ -172,8 +172,25 @@ header nav ul li a:hover{
     color: var(--black);
     text-decoration: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: 1s;                                                 
+    transition: 1s;
+    position: relative;                                                 
 }
+
+.header-btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #08e78e;
+    transition: width 0.3s ease-out;
+}
+
+.header-btn:hover:before{
+    width: 100%;
+}
+
 .header-btn a{
    color: white;
    text-decoration: none;
@@ -248,7 +265,7 @@ header nav ul li a:hover{
 
 
 span{
-    color: var(--green);
+    color: var(--white);
 }
 
  .about-font{
@@ -330,7 +347,7 @@ span{
 .activities .boxContainer .box{
     background-color: #fff;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 3px 0 #c5c5c5;
     position: relative;
@@ -425,7 +442,7 @@ span{
 /*education section start*/
 
 .education {
-    background-image: url("photos/charity/image4.jpg");
+    background-image: url("Education.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
