@@ -576,7 +576,8 @@ span{
 }
 
 .join button.adoptBtn{
-    background-color: lightgray;
+    background-color:var(--blue) ;
+    color: #fff;
 }
 
 /*Join Section end here */
