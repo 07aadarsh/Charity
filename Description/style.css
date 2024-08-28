@@ -363,22 +363,22 @@ span{
 
 .activities .boxContainer .box:nth-child(1) .cardImage,
 .activities .boxContainer .box:nth-child(1) .cardImage::after{
-    background-image: url("photos/charity/child.jpg");
+    background-image: url("Activities_1.jpg");
 }
 
 .activities .boxContainer .box:nth-child(2) .cardImage,
 .activities .boxContainer .box:nth-child(2) .cardImage::after{
-    background-image: url("NGO/program3.jpg");
+    background-image: url("Activities_2.jpg");
 }
 
 .activities .boxContainer .box:nth-child(3) .cardImage,
 .activities .boxContainer .box:nth-child(3) .cardImage::after{
-    background-image: url("photos/NGO/program2.jpg");
+    background-image: url("Activities_3.jpg");
 }
 
 .activities .boxContainer .box:nth-child(4) .cardImage,
 .activities .boxContainer .box:nth-child(4) .cardImage::after{
-    background-image: url("photos/NGO/image-2.jpg");
+    background-image: url("Activities_4.jpg");
 }
 
 .activities .boxContainer .box:hover .cardImage::after{
