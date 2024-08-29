@@ -30,11 +30,6 @@ p{
     line-height: 26px;
 }
 
-a{
-    text-decoration: none;
-    color: var(--black);
-}
-
 .fullContainer{
     width: 100%;
 }
@@ -83,61 +78,23 @@ section{
 
 header .top{
     border-bottom:1px solid #f0f1f2;
-    
 }
 .top ul li{
     display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 80px;
-    padding-right: 18px;
-    margin-right: 18px;
-    line-height: 1;
-    border-right: 1px solid var(--light-color);
-    font-weight: 500;
+
+    padding: 15px 30px;
     text-decoration: none;
     font-size: 16px;
-    color:var(--light-color);
-}
-
-
-.navbar .top .login{
-    margin-left: 50%;
-}
-
-.navbar .top .login a{
-    color: var(--light-color);
-    border-left: 1px solid var(--black);
-    font-size: 16px;
-    line-height: 1;
-    padding-left: 21px;
-    margin-left: 10px;
-    font-weight: 400;
-    text-decoration: none;
+    color:var(--black);
 }
 
 header{
-    top: 0;
-    left: 0;
     width: 100%;
-    background-color: #fff;
+    color: var(--white);
     box-shadow:  0 0px 20px 0 rgba(0,0,0,0.19);
+    position: fixed;
     z-index: 2;
    
-}
-
-.navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.19);
-    z-index: 1000;
-}
-
-header .navbar{
-    position: fixed;
 }
 
 header .container{
@@ -218,7 +175,7 @@ header nav ul li a:hover{
 .banner{
     min-height: 100vh;
     width: 100%;
-    background-image: url("home.jpg");
+    background-image: url("photos/mt-0822-home-slide1.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -391,22 +348,22 @@ span{
 
 .activities .boxContainer .box:nth-child(1) .cardImage,
 .activities .boxContainer .box:nth-child(1) .cardImage::after{
-    background-image: url("Activities_1.jpg");
+    background-image: url("photos/charity/child.jpg");
 }
 
 .activities .boxContainer .box:nth-child(2) .cardImage,
 .activities .boxContainer .box:nth-child(2) .cardImage::after{
-    background-image: url("Activities_2.jpg");
+    background-image: url("NGO/program3.jpg");
 }
 
 .activities .boxContainer .box:nth-child(3) .cardImage,
 .activities .boxContainer .box:nth-child(3) .cardImage::after{
-    background-image: url("Activities_3.jpg");
+    background-image: url("photos/NGO/program2.jpg");
 }
 
 .activities .boxContainer .box:nth-child(4) .cardImage,
 .activities .boxContainer .box:nth-child(4) .cardImage::after{
-    background-image: url("Activities_4.jpg");
+    background-image: url("photos/NGO/image-2.jpg");
 }
 
 .activities .boxContainer .box:hover .cardImage::after{
