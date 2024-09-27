@@ -591,7 +591,7 @@ span{
 /*footer Start here */
 
 footer{
-    background-color: var(--blue);
+    background-image: url(footer_bg.png);
     color:#fff;
     padding: 50px;
     font-size: 14px;
