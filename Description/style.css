@@ -100,22 +100,6 @@ header .top{
     color:var(--light-color);
 }
 
-
-.navbar .top .login{
-    margin-left: 50%;
-}
-
-.navbar .top .login a{
-    color: var(--light-color);
-    border-left: 1px solid var(--black);
-    font-size: 16px;
-    line-height: 1;
-    padding-left: 21px;
-    margin-left: 10px;
-    font-weight: 400;
-    text-decoration: none;
-}
-
 header{
     top: 0;
     left: 0;
