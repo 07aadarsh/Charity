@@ -355,49 +355,49 @@
             <div class="galleryContainer">
                 <div class="item">
                     <span class="title">Image Title</span>
-                    <img src="NGO/gallery6.jpg" alt="">
+                    <img src="gallery_1.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
                     <span class="title">Image Title</span>
-                    <img src="NGO/gallery4.jpg" alt="">
+                    <img src="gallery_2.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
                     <span class="title">Image Title</span>
-                    <img src="NGO/gallery3.jpg" alt="">
+                    <img src="gallery_3.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
                     <span class="title">Image Title</span>
-                    <img src="NGO/gallery10.jpg" alt="">
+                    <img src="gallery_4.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
                     <span class="title">Image Title</span>
-                    <img src="NGO/gallery5.jpg" alt="">
+                    <img src="gallery_5.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
                     <span class="title">Image Title</span>
-                    <img src="NGO/gallery11.jpg" alt="">
+                    <img src="gallery_6.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
                     <span class="title">Image Title</span>
-                    <img src="NGO/gallery7.jpg" alt="">
+                    <img src="gallery_7.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
                     <span class="title">Image Title</span>
-                    <img src="NGO/gallery8.jpg" alt="">
+                    <img src="gallery_8.jpg" alt="">
                 </div>
                 <!--item-->
             </div>
@@ -405,6 +405,7 @@
         </div>
     </section>
     <!--Gallery Section end here-->
+
 
 
 
