@@ -106,7 +106,7 @@ header .top{
 }
 
 .top ul li .sign-in-up button{
-    
+    background-color: transparent;
     color: #fff;
     font-size: 16px;
     font-weight: 550;
@@ -124,7 +124,7 @@ header .top{
 
 
 .top ul li .sign-in-up button:last-child{
-    background-color: transparent;
+    background-color: var(--white);
 }
 
 
@@ -201,7 +201,7 @@ div.popup-container div.popup button.login-btn,div.popup-container div.register 
     width: 100%;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.2);
-    transition-duration: 1s;
+    transition-duration: 0.1s;
 }
 
 div.popup-container div.popup button.login-btn:hover ,div.popup-container div.register button.register-btn:hover{
