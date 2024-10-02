@@ -110,7 +110,8 @@ header .top{
     margin-left: 725px;
 }
 
-.top ul li .sign-in-up button{
+
+.top ul li .sign-in-up button, .user button{
     background-color: var(--green);
     color: #fff;
     font-size: 16px;
@@ -124,9 +125,9 @@ header .top{
     cursor: pointer;
 }
 
-
-
-
+.user button a{
+    color: #fff;
+}
 
 .top ul li .sign-in-up button:last-child{
     background-color: var(--green);
@@ -459,7 +460,7 @@ span{
     margin-top: 15px;
 }
 
-#aboutSection .cards > div button{
+#aboutSection .cards > div button {
     border: 1px solid var(--blue);
     outline: none;
     padding: 7px 15px;
@@ -472,6 +473,10 @@ span{
 
 #aboutSection .cards > div:hover button{
     background-color: var(--blue);
+    color: #fff;
+}
+
+#aboutSection .cards > div:hover a{
     color: #fff;
 }
 
@@ -565,7 +570,7 @@ span{
     color:var(--blue);
 }
 
-.activities .boxContainer .box button{
+.activities .boxContainer .box button a{
     position: absolute;
     left: 50%;
     background-color:var(--blue);

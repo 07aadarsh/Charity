@@ -30,7 +30,7 @@
                 echo"
                 <li>
                     <div class='user'>
-                        $_SESSION[username]-<a href='logout.php'>LOGOUT</a>
+                        $_SESSION[username] <button><a href='logout.php'>LOGOUT</a></button>
                     </div>
                 </li>
                 ";
@@ -158,7 +158,7 @@
                     Make a lasting impact, your donation changes lives now.
                 </p>
                 <button>
-                    Donate Now
+                    <a href="donation.php">Donate Now</a>
                 </button>
             </div>
             <!--donation end here-->
@@ -171,7 +171,7 @@
                     Make an impact, become a volunteer, and change lives today.
                 </p>
                 <button>
-                    Become Now
+                   <a href="#">Become Now</a>
                 </button>
             </div>
             <!--donation end here-->
@@ -184,7 +184,7 @@
                     Empower futures, give a scholarship,and create new opportunities.
                 </p>
                 <button>
-                    Give Scholarship
+                    <a href="#">Give Scholarship</a>
                 </button>
             </div>
             <!--donation end here-->
@@ -203,7 +203,7 @@
                     <div class="donationCount">
                         Donation Goal : <span>Rs 9845</span>
                     </div>
-                    <button>Donate Now</button>
+                    <button><a href="donation.php">Donate Now</a></button>
                 </div>
                 <!--box end-->
 
@@ -213,7 +213,7 @@
                     <div class="donationCount">
                         Donation Goal : <span>Rs 9845</span>
                     </div>
-                    <button>Donate Now</button>
+                    <button><a href="donation.php">Donate Now</a></button>
                 </div>
                 <!--box end-->
 
@@ -223,7 +223,7 @@
                     <div class="donationCount">
                         Donation Goal : <span>Rs 9845</span>
                     </div>
-                    <button>Donate Now</button>
+                    <button><a href="donation.php">Donate Now</a></button>
                 </div>
                 <!--box end-->
 
@@ -233,7 +233,7 @@
                     <div class="donationCount">
                         Donation Goal : <span>Rs 9845</span>
                     </div>
-                    <button>Donate Now</button>
+                    <button><a href="donation.php">Donate Now</a></button>
                 </div>
                 <!--box end-->
 
