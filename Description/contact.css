@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Assuming your website's color scheme is blue and white */
+:root {
+    --primary-color: #4567b7; /* blue */
+    --secondary-color: #ffffff; /* white */
+  }
+  
+  .join-us-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px 40px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: var(--primary-color);
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  
+  input, textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .btn-join {
+    background-color: var(--primary-color); /* blue */
+    color: var(--secondary-color); /* white */
+    padding: 15px 30px; /* increased padding for larger size */
+    border: none;
+    border-radius: 10px; /* rounded corners */
+    cursor: pointer;
+    font-size: 18px; /* increased font size for better readability */
+    width: 100%; /* make the button full-width */
+    height: 50px; /* set a fixed height for the button */
+    transition: background-color 0.3s ease-in-out; /* add a transition effect for the hover effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle box shadow */
+    font-weight: bold; /* make the text bold */
+  }
+  
+  .btn-join:hover {
+    background-color: #3b5f9a; /* darker blue on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* increase the box shadow on hover */
+  }
+  
+  .btn-join:active {
+    background-color: #2f4d7b; /* even darker blue on active */
+    transform: translateY(2px); /* add a slight movement on active */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* reduce the box shadow on active */
+  }

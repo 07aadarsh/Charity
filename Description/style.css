@@ -26,7 +26,7 @@ button,body{
 }
 
 p{
-    font-size: 14px;
+    font-size: 15px;
     line-height: 26px;
 }
 
@@ -107,31 +107,42 @@ header .top{
 
 .top ul li:last-child{
     border: none;
-    margin-left: 725px;
+    margin-left: 730px;
 }
 
 
 .top ul li .sign-in-up button, .user button{
-    background-color: var(--green);
-    color: #fff;
+    background-color: var(--white);
+    color: #000;
+    
     font-size: 16px;
     font-weight: 550;
-    padding: 4px 12px;
+    padding: 0px 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-left: 10px;
     outline: none;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
     cursor: pointer;
+    transition: 0.1s;
+    opacity: 0.8;
+}
+
+.top ul li .sign-in-up button:hover, .user button:hover{
+    background-color: var(--white);
+    color:var(--green);
+    opacity: 1;
+    border-bottom: 1px solid var(--green);
+    box-shadow: 0 4px 8px 0 rgba(15, 185, 35, 0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .user button a{
     color: #fff;
 }
 
-.top ul li .sign-in-up button:last-child{
+/* .top ul li .sign-in-up button:last-child{
     background-color: var(--green);
-}
+} */
 
 
 
@@ -207,7 +218,7 @@ div.popup-container div.popup button.login-btn,div.popup-container div.register 
     width: 100%;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.2);
-    transition-duration: 0.1s;
+    transition: 0.1s;
 }
 
 div.popup-container div.popup button.login-btn:hover ,div.popup-container div.register button.register-btn:hover{
@@ -612,12 +623,12 @@ span{
 .education .educationContainer{
     background-color: #00000096;
     text-align: center;
-    top: 35vh;
+    top: 30vh;
     width: 100%;
     
     color: #fff;
     text-shadow: 0 0 3px #000;
-    padding: 10px 10px;
+    padding: 50px 100px;
 
    
 }
@@ -633,15 +644,20 @@ span{
     margin: 10px 0 30px;
 }
 
-.education .educationContainer button{
+.education .educationContainer button {
     background-color: var(--blue);
     border: 0;
     color: #fff;
     padding: 10px 25px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 10px;
     outline: 0;
     cursor: pointer;
+}
+
+.education .educationContainer button a{
+    color: #fff;
+    font-size: 15px;
 }
 
 /*education section end*/
@@ -700,10 +716,16 @@ span{
 .join .joinTitle{
     font-size: 40px;
     font-weight: 100;
+    margin-bottom: 10px;
+    margin-top: -50px;
 }
 
 .join .joinTitle span{
     font-weight: 800;
+}
+
+.join button{
+    margin-top: 10px;
 }
 
 .join button a{
@@ -762,6 +784,7 @@ footer p{
 
 footer .linkContainer ul{
     list-style-type: none;
+
 }
 
 footer .linkContainer ul li a{
@@ -769,9 +792,10 @@ footer .linkContainer ul li a{
     color: #fff;
     margin-bottom: 10px;
     display: inline-block;
+    padding: 5px 5px;
 }
 
-footer .newsLetterComtainer img{
+footer .newsLetterComtainer p{
     height: 70px;
     margin-bottom: 11px;
 }

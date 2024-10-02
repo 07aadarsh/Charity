@@ -41,8 +41,8 @@
                 echo"
                 <li>
                     <div class='sign-in-up'>
-                    <button type='button'  onclick=\"popup('login-popup')\">LOGIN</button>
-                    <button type='button' onclick=\"popup('register-popup')\">REGISTER</button>
+                    <button type='button'  onclick=\"popup('login-popup')\">Login</button>
+                    <button type='button' onclick=\"popup('register-popup')\">Register</button>
                     </div>
                 </li>
                 ";
@@ -171,7 +171,7 @@
                     Make an impact, become a volunteer, and change lives today.
                 </p>
                 <button>
-                   <a href="#">Become Now</a>
+                   <a href="volunteer.php">Become Now</a>
                 </button>
             </div>
             <!--donation end here-->
@@ -262,7 +262,7 @@
                     in our mission to transform lives through education and create a
                     world where every child has the opportunity to succeed.
                 </p>
-                <button>EXPLORE NOW</button>
+                <button><a href="#">EXPLORE NOW</a></button>
             </div>
         </div>
     </section>
@@ -333,14 +333,22 @@
         <div class="container">
             <div class="joinTitle">ADOPT A CHILD & <span>SAVE LIVES</span></div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Earum, blanitiis unde aspernatur deserunt vertatis, autem
-                perspiciatis volupatatem expalicabo exercitationen quos
-                sapiente qui. vel nobis aut alias tempore vero,aliquam
-                soluta?
+            Are you ready to make a difference in a child's life?
+             By adopting a child, you can provide a loving home 
+             to someone in need and create lasting memories as 
+             you build your family together. The joy of helping 
+             a child grow and thrive is truly unparalleled. 
+             If adoption isn't the right path for you, consider 
+             joining our community! You can learn more about 
+             the adoption process, participate in events, and 
+             help raise awareness for children in need. Together, 
+             we can create brighter futures for these children. 
+             Join us today and be a part of this meaningful journey!
+
+
             </p>
-            <button class="joinNow"><a href="">JOIN US</a></button>
-            <button class="adoptBtn"><a href="">ADOPT A CHILD</a></button>
+            <button class="joinNow"><a href="contact_1.php">JOIN US</a></button>
+            <button class="adoptBtn"><a href="Adopt.php">ADOPT A CHILD</a></button>
         </div>
     </section>
     <!--joinSection end here-->
@@ -389,10 +397,10 @@
             </div>
             <!--conectContainer-->
             <div class="newsLetterComtainer">
-                <img src="photos/charity/logo1.png" alt="">
+               
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorem reprehenderit quam nobis possimus velit?
+                Your support means the world to us and to the children we serve.
+                 Together, we can change lives!
                 </p>
                 <input type="text" placeholder="Enter your email id">
             </div>
