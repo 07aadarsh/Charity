@@ -132,7 +132,7 @@
             Every action we take, every life we touch is a testament to the power of unity and compassion.
             Together, we turn hope into action and create lasting change.
         </p>
-        <button> Start With A Little </button>
+        <button><a href="donation.php"> Start With A Little </a></button>
     </div>
     </div>
     <!--home section end-->
@@ -275,49 +275,48 @@
 
             <div class="galleryContainer">
                 <div class="item">
-                    <span class="title">Image Title</span>
                     <img src="gallery_1.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
-                    <span class="title">Image Title</span>
+                    
                     <img src="gallery_2.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
-                    <span class="title">Image Title</span>
+                    
                     <img src="gallery_3.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
-                    <span class="title">Image Title</span>
+                    
                     <img src="gallery_4.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
-                    <span class="title">Image Title</span>
+                    
                     <img src="gallery_5.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
-                    <span class="title">Image Title</span>
+                    
                     <img src="gallery_6.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
-                    <span class="title">Image Title</span>
+                    
                     <img src="gallery_7.jpg" alt="">
                 </div>
                 <!--item-->
 
                 <div class="item">
-                    <span class="title">Image Title</span>
+                   
                     <img src="gallery_8.jpg" alt="">
                 </div>
                 <!--item-->
@@ -340,8 +339,8 @@
                 sapiente qui. vel nobis aut alias tempore vero,aliquam
                 soluta?
             </p>
-            <button class="joinNow">JOIN US</button>
-            <button class="adoptBtn">ADOPT A CHILD</button>
+            <button class="joinNow"><a href="">JOIN US</a></button>
+            <button class="adoptBtn"><a href="">ADOPT A CHILD</a></button>
         </div>
     </section>
     <!--joinSection end here-->

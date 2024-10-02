@@ -389,7 +389,7 @@ header nav ul li a:hover{
     margin-left: 50px;
 }
 
-.banner button{
+.banner button {
     background-color: var(--blue);
     border: 0;
     outline: none;
@@ -403,6 +403,9 @@ header nav ul li a:hover{
     cursor: pointer;
 }
 
+.banner button a{
+    color: #fff;
+}
 
 
 /*Home style end*/
@@ -703,13 +706,14 @@ span{
     font-weight: 800;
 }
 
-.join button{
+.join button a{
     padding: 7px 15px;
     margin-top: 20px;
     border: 0;
     outline: none;
     font-weight: 600;
     font-size: 16px;
+    color: #fff;
 }
 
 .join button.joinNow{
