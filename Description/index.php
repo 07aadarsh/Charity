@@ -23,8 +23,6 @@
                 <li>Phone: +9108888888</li>
                 <li>Email: info@gmail.com</li>
            
-            
-            
             <?php
              if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true)
              {
@@ -49,8 +47,6 @@
                 </li>
                 ";
              }
-
-
         ?>
 
             </ul>
@@ -90,82 +86,6 @@
             </form>
         </div>
     </div>
-
-       
-
-       <!--<div class="popup-container" id="signUp" style="display: none;">
-            <h1 class="form-title">Register</h1>
-            <button type="reset" class="close-btn" onclick="toggleLoginPopup">X</button>
-            <form action="register.php" method="post" >
-                <div class="input-group">
-                    <i class="fas fa-user"></i>
-                    <input type="text" name="fname" id="fname" placeholder="First Name" required >
-                    <label for="fname">First Name</label>
-                </div>
-                <div class="input-group">
-                    <i class="fas fa-user"></i>
-                    <input type="text" name="lname" id="lname" placeholder="last Name" required >
-                    <label for="lname">Last Name</label>
-                </div>
-                <div class="input-group">
-                    <i class="fas fa-envelope"></i>
-                    <input type="email" name="email" id="email" placeholder="Email" required >
-                    <label for="email">Email</label>
-                </div>
-                <div class="input-group">
-                    <i class="fas fa-lock"></i>
-                    <input type="password" name="password" id="password" placeholder="password" required >
-                    <label for="password">password</label>
-                </div>
-                <input type="submit" class="btn" value="Sign Up" name="signup">
-            </form>
-
-            <p class="or">
-                ----------or----------
-                <div class="icons">
-                    <i class="fab fa-google"></i>
-                    <i class="fab fa-facebook"></i>
-                </div>
-                <div class="links">
-                    <p>Alredy have an account ?</p>
-                    <button id="signInButton">Sign In</button>
-                </div>
-            </p>
-        </div>
-
-        <div class="popup-container" id="signIn">
-            <h1 class="form-title">Sign In</h1>
-            <button class="close-btn" onclick="toggleLoginPopup">X</button>
-            <form action="register.php" method="post">
-                <div class="input-group">
-                    <i class="fas fa-envelope"></i>
-                    <input type="email" name="email" id="email" placeholder="Email" required >
-                    <label for="email">Email</label>
-                </div>
-                <div class="input-group">
-                    <i class="fas fa-lock"></i>
-                    <input type="password" name="password" id="password" placeholder="password" required >
-                    <label for="password">password</label>
-                </div>
-                <p class="recover">
-                    <a href="#">Recover Password</a>
-                </p>
-                <input type="submit" class="btn" value="Sign In" name="signIn">
-            </form>
-
-            <p class="or">
-                ----------or----------
-                <div class="icons">
-                    <i class="fab fa-google"></i>
-                    <i class="fab fa-facebook"></i>
-                </div>
-                <div class="links">
-                    <p>don't have an account ?</p>
-                    <button id="signUpButton">Sign Up</button>
-                </div>
-            </p>
-        </div>-->
-
 
 
         <div class="container">
@@ -245,7 +165,7 @@
 
             <div class="volunteerBox">
                 <div class="title">
-                    <h1>Become a volunteer</h1>
+                    <h1>Volunteer</h1>
                 </div>
                 <p>
                     Make an impact, become a volunteer, and change lives today.
@@ -325,8 +245,9 @@
 
     <!--Activities-Section end here-->
 
+    <div class="sectionTitle"> Education </div>
     <section class="education" id="educationSection">
-        <div class="sectionTitle"> Education </div>
+        
         <div class="container">
 
 
@@ -426,19 +347,17 @@
     <!--joinSection end here-->
 
     <footer>
+
+        
         <div class="container">
-            <div class="newsLetterComtainer">
-                <img src="photos/charity/logo1.png" alt="">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorem reprehenderit quam nobis possimus velit?
-                </p>
-                <input type="text" placeholder="Enter your email id">
+            <div class="footer-logo">
+             <img src="" alt="">
+             <h1>Charity.</h1>
             </div>
-            <!--newsLetterContainer-->
+            <!--logo of footer part-->
 
             <div class="linkContainer">
-                <div class="title">Useful Links</div>
+                <div class="title">Important Link</div>
                 <ul>
                     <li>
                         <a href="#">Home</a>
@@ -463,15 +382,23 @@
             <!--linkContainer-->
 
             <div class="conectContainer">
-                <div class="title">Conect With Us</div>
+                <div class="title">Contact Info</div>
                 <p>
-                    Ambedkar colony,Nowlakha,Deoghar<br />
-                    815351,Jharkhand
+                    Deoghar, Jharkhand  815351
                 </p>
-                <p>info@ngo.com </p>
-                <p>(+91)9608715157</p>
+                <p>charity@gmail.com </p>
+                <p>+91-0888888888</p>
             </div>
             <!--conectContainer-->
+            <div class="newsLetterComtainer">
+                <img src="photos/charity/logo1.png" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorem reprehenderit quam nobis possimus velit?
+                </p>
+                <input type="text" placeholder="Enter your email id">
+            </div>
+            <!--newsLetterContainer-->
 
         </div>
     </footer>
