@@ -402,14 +402,14 @@
         </div>
     </footer>
 
-<?php
+<!-- <?php
 
     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true)
     {
         echo "<h1 style='text-align: center; margin-top: 200px; color: #fff'> welcome to the website . $_SESSION[username]    </h1>";
     }
 
-?>
+?> -->
 
 
 
