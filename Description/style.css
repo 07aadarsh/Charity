@@ -107,11 +107,11 @@ header .top{
 
 .top ul li:last-child{
     border: none;
-    margin-left: 700px;
+    margin-left: 725px;
 }
 
 .top ul li .sign-in-up button{
-    background-color: var(--blue);
+    background-color: var(--green);
     color: #fff;
     font-size: 16px;
     font-weight: 550;
@@ -609,7 +609,7 @@ span{
     
     color: #fff;
     text-shadow: 0 0 3px #000;
-    padding: 0px 0px;
+    padding: 10px 10px;
 
    
 }
