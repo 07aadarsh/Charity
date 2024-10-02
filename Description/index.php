@@ -351,8 +351,7 @@
         
         <div class="container">
             <div class="footer-logo">
-             <img src="" alt="">
-             <h1>Charity.</h1>
+             <img src="logo2_footer.png" alt="">
             </div>
             <!--logo of footer part-->
 
