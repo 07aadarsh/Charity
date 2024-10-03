@@ -24,7 +24,7 @@
 			<p>UPI Handle: [insert UPI handle]</p>
 		</div>
 		<button id="donate-btn">Donate Now</button>
-		<form id="donation-form" action="donate.php" method="post">
+		<form id="donation-form" action="process_donation.php" method="post">
 			<input type="hidden" name="donation_amount" id="donation_amount_hidden">
 			<input type="hidden" name="donor_name" id="donor_name_hidden">
 			<input type="hidden" name="donor_email" id="donor_email_hidden">
