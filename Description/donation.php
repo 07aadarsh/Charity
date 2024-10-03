@@ -19,7 +19,7 @@
 		<div class="upi-payment">
 			<h2>UPI Payment</h2>
 			<p>Scan the QR code below to make a donation using UPI:</p>
-			<img src="upi-qr-code.png" alt="UPI QR Code">
+			<img src="qr code.jpeg" alt="UPI QR Code">
 			<p>UPI ID: [ayansharma232@okhdfcbank]</p>
 			<p>UPI Handle: [insert UPI handle]</p>
 		</div>
