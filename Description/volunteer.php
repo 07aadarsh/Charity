@@ -10,6 +10,7 @@
     <div class="container">
         <h2>Become a Volunteer</h2>
         <form action="process_volunteer.php" method="post">
+            <div class="content">
             <div class="form-group">
                 <label for="volunteer_name">Volunteer Name:</label>
                 <input type="text" id="volunteer_name" name="volunteer_name" required>
@@ -43,7 +44,8 @@
                 <label for="skills">Skills:</label>
                 <textarea id="skills" name="skills" required></textarea>
             </div>
-            <button type="submit">Submit</button>
+            </div>
+            <button class="btn" type="submit">Submit</button>
         </form>
     </div>
 </body>

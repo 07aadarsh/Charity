@@ -107,7 +107,7 @@ header .top{
 
 .top ul li:last-child{
     border: none;
-    margin-left: 730px;
+    margin-left: 765px;
 }
 
 
@@ -117,7 +117,7 @@ header .top{
     
     font-size: 16px;
     font-weight: 550;
-    padding: 0px 10px;
+    padding: 5px 10px;
     border: none;
     border-radius: 15px;
     margin-left: 10px;
@@ -137,12 +137,9 @@ header .top{
 }
 
 .user button a{
-    color: #fff;
+    color: #000;
 }
 
-/* .top ul li .sign-in-up button:last-child{
-    background-color: var(--green);
-} */
 
 
 
@@ -708,7 +705,7 @@ span{
 /*Join Section start here */
 
 .join{
-    background-image: url("");
+    background-image:linear-gradient(#09cc7f,  #a4f2d3);
     background-color: var(--green);
     color: #fff;
 }

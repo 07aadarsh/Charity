@@ -5,38 +5,107 @@
     --primary-color: #4567b7; /* blue */
     --secondary-color: #ffffff; /* white */
   }
+
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #4567b7,#fff);
+ }
   
   .join-us-container {
-    max-width: 600px;
+    /* max-width: 600px;
     margin: 40px auto;
     padding: 20px 40px;
     background-color: var(--secondary-color);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+
+    max-width: 50%;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(0, 0, 0,0.2);
+    box-shadow: 0 15px 20px rgba(0, 0, 0,0.6) ;
   }
   
   h1 {
-    color: var(--primary-color);
-    margin-top: 0;
+    /* color: var(--primary-color);
+    margin-top: 0; */
+
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 8px;
+    border-bottom: 1px solid silver;
   }
   
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.form-group {
+    /* margin-bottom: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+/* .form-group:nth-child(2n){
+    justify-content: end;
+} */
+
+
+  .form-group label {
+    /* display: block;
     margin-bottom: 10px;
-    color: var(--primary-color);
+    color: var(--primary-color); */
+
+    width: 95%;
+        color: #fff;
+        font-weight: bold;
+        margin: 5px 0;
   }
   
   input, textarea {
-    width: 95%;
+    /* width: 95%;
     padding: 10px;
     border: 1px solid var(--primary-color);
     border-radius: 5px;
-    margin: 0 auto;
+    margin: 0 auto; */
+
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    background-color: #dfe6f6;
   }
+
+  .form-group textarea{
+    height: 100px;
+  }
+
+  .form-group input:is(:focus,:valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
   .btn-join {
     background-color: var(--primary-color); /* blue */
     color: var(--secondary-color); /* white */

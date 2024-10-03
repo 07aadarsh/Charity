@@ -10,6 +10,7 @@
     <div class="container">
         <h2>Adopt a Child</h2>
         <form action="process_adoption.php" method="post">
+            <div class="content">
             <div class="form-group">
                 <label for="name">Full Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -38,7 +39,10 @@
                 <label for="adoption_reason">Reason for Adoption:</label>
                 <textarea id="adoption_reason" name="adoption_reason" required></textarea>
             </div>
+    </div>
+            <div class="btn">
             <button type="submit">Submit</button>
+            </div>
         </form>
     </div>
 </body>

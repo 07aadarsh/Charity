@@ -12,6 +12,7 @@
     <section class="join-us-container">
         <h1>Join Our Community</h1>
         <form action="contact.php" method="post">
+            <div class="content">
             <div class="form-group">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -27,6 +28,7 @@
             <div class="form-group">
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
+            </div>
             </div>
             <button type="submit" class="btn-join">Join Us</button>
         </form>

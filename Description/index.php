@@ -41,8 +41,8 @@
                 echo"
                 <li>
                     <div class='sign-in-up'>
-                    <button type='button'  onclick=\"popup('login-popup')\">Login</button>
-                    <button type='button' onclick=\"popup('register-popup')\">Register</button>
+                    <button type='button'  onclick=\"popup('login-popup')\">Sign in</button>
+                    <button type='button' onclick=\"popup('register-popup')\">Sign up</button>
                     </div>
                 </li>
                 ";
@@ -82,7 +82,7 @@
             <input type="text" placeholder="Username" name="username">
             <input type="email" placeholder="E-mail" name="email">
             <input type="password" placeholder="Password" name="password" >
-            <button type="submit" class="register-btn" name="register">REGISTER</button>
+            <button type="submit" class="register-btn" name="register">Signup</button>
             </form>
         </div>
     </div>
