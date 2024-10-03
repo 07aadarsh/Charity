@@ -7,7 +7,8 @@
 <body>
 	<div class="donation-container">
 		<h1>Donate to Our Cause</h1>
-		<p>Help us make a difference in the lives of those in need. Your donation will go towards supporting our mission to [briefly describe your mission].</p>
+		<p>Help us make a difference in the lives of those in need. Your donation will go towards supporting our mission to " Provide scholarships and learning materials to children in need".</p>
+		<div class="content">
 		<div class="donation-details">
 			<h2>Donation Details</h2>
 			<ul>
@@ -20,10 +21,13 @@
 			<h2>UPI Payment</h2>
 			<p>Scan the QR code below to make a donation using UPI:</p>
 			<img src="qr code.jpeg" alt="UPI QR Code">
-			<p>UPI ID: [ayansharma232@okhdfcbank]</p>
-			<p>UPI Handle: [insert UPI handle]</p>
+			<!-- <p>UPI ID: [ayansharma232@okhdfcbank]</p> -->
+			
 		</div>
+        </div>
+		<div class="donate-btn">
 		<button id="donate-btn">Donate Now</button>
+        </div>  
 		<form id="donation-form" action="process_donation.php" method="post">
 			<input type="hidden" name="donation_amount" id="donation_amount_hidden">
 			<input type="hidden" name="donor_name" id="donor_name_hidden">

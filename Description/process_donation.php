@@ -37,10 +37,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Display success message
             echo "Thank you for your donation! Your support means a lot to us.";
         } else {
-            echo "Please enter a valid donor name and email.";
+            echo"
+            <script>
+                alert('Please enter a valid donor name and email.');
+                window.location.href='donation.php';
+            </script>
+";
         }
     } else {
-        echo "Please enter a valid donation amount.";
+        echo"
+            <script>
+                alert('Please enter a valid donation amount.');
+                window.location.href='donation.php';
+            </script>
+";
     }
 }
 

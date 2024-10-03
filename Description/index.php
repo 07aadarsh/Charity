@@ -41,7 +41,7 @@
                 echo"
                 <li>
                     <div class='sign-in-up'>
-                    <button type='button'  onclick=\"popup('login-popup')\">Sign in</button>
+                    <button type='button'  onclick=\"popup('login-popup')\">log in</button>
                     <button type='button' onclick=\"popup('register-popup')\">Sign up</button>
                     </div>
                 </li>
